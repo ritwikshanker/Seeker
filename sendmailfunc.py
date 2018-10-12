@@ -1,3 +1,5 @@
+#Author @Ritwik Shanker
+
 import smtplib
 
 
@@ -6,6 +8,7 @@ def sendMail(message, email_user):
     smtp_port = 587  # for smtp.gmail.com
     from_address = "generatortestcase@gmail.com"  # e.g. username@gmail.com
     from_password = "8192161998"  # required by script to login using your username
+    #password is a mobile number since can't reveal my secret ;)
     to_address = email_user  # e.g. username2@gmail.com
     mail_body = message
     server = smtplib.SMTP(smtp_server, smtp_port)
