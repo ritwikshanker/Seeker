@@ -17,7 +17,7 @@ $ py -3 main.py
 
 ```
 Email Address: ritwikshanker@gmail.com
-TV Series: House
+TV Series: DareDevil
 ```
 After the execution of the script, you will receive an email containing the date of air of the next episode of the TV Series.
 
